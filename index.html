@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/visualizar.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="integrantes.html">Integrantes</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <form class="formulario">
+            <div class="login">
+                <h1>Registrarse</h1>
+                <div class="login-input">
+                    <label for="fullname">Nombre</label>
+                    <input type="text" placeholder="Nombre y Apellido ">
+                </div>
+                <div class="login-input">
+                    <label for="fullname">Fecha de nacimiento</label>
+                    <input type="date" placeholder="Id ">
+                </div>
+                <div class="login-input">
+                    <label for="fullname">Correo</label>
+                    <input type="email" placeholder="Correo "
+                    required>
+                </div>
+                <div class="login-input">
+                    <label for="fullname">Usuarioss</label>
+                    <input type="text" placeholder="Usuario"
+                    required minlength="4" maxlength="8" size="10">
+                </div>
+                <div class="login-input">
+                    <label for="fullname">Password</label>
+                    <input type="password" placeholder="Password" form="pass1" required
+                    minlength="4" maxlength="8" size="10" >
+                </div>
+                <div class="login-input">
+                    <label for="fullname">Confirmar password</label>
+                    <input type="password" placeholder="password" form="pass2" required minlength="4" maxlength="8" size="10">
+                </div>
+                <label for="comprobarcontraseña" hidden id="bym1">las contraseñas no coinciden</label>
+                <label for="comprobarcontraseña" hidden id="bym2">las contraseñas coinciden</label>
+                <div class="login-input">
+                    <label for="fullname">Sufre enfermedades</label>
+                    <select name="Enfermedades" id="Enfermedades">
+                        <option value="vc"></option>
+                        <option value="no">no</option>
+                        <option value="si">sí</option>
+                    </select>
+                </div>
+                <div class="login-input" id="bop" hidden>
+                    <label for="fullname">cuales</label>
+                    <input type="text" placeholder="Enfermedades">
+                </div>
+                <button id="enviar">enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

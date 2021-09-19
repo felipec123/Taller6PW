@@ -1,0 +1,65 @@
+body{
+    background-color:#282c34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nombres{
+    text-align: center;
+    color: #7ec699;
+    margin-top: 10%;
+}
+
+.N {
+    font-size: 200%;
+}
+
+.container{
+    text-align: center;
+    min-height: 100vh;
+}
+
+.menu{
+    text-decoration: none;
+    background-color: #7ec699;
+    list-style: none;
+    border-radius: 100px;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: #282c34;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.menu > li > a:hover{
+    background: #406e52;
+    color: #7ec699;
+    border-radius: 20px;
+}
+
+.formulario{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.login{
+    background-color: #7ec699;
+    border-radius: 10px;
+    object-fit: contain;
+    width: min-content;
+    padding: 50px;
+    box-shadow: 20px 10px 3px #00000033;
+}
+
+.login-input{
+    margin-bottom: 10px;
+}
+
